@@ -1,11 +1,6 @@
 -- Karmix Library: A UI library inspired by Luna Interface Suite, Mobile-Friendly and Enhanced
 -- Author: Karmix Team
 
-local Karmix = loadstring(game:HttpGet("<your_url>/karmix.lua"))()
-local Window = Karmix:CreateWindow({ Name = "Example Window", Subtitle = "Subtitle", LogoID = "", LoadingEnabled = true })
-local Tab = Window:CreateTab({ Name = "Tab Example", Icon = "view_in_ar", ImageSource = "Material", ShowTitle = true })
-Tab:CreateButton({ Name = "Click Me", Callback = function() print("Button clicked") end })
-
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
